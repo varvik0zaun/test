@@ -1,0 +1,44 @@
+@media (min-width: 300px) and (max-width:600px)
+  { #conteiner{
+    box-sizing: border-box;
+    width: 75%;
+    margin: auto;
+    border: 2px dotted orange;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+#conteiner div{
+    margin-bottom: 20px;
+    border: 20px solid orangered;
+    padding: 10px;
+    text-align: justify;
+}
+}
+@media (min-width: 600px) and (max-width: 800px){
+     #conteiner{
+        width: 90%;
+        margin: auto;
+        border: 5px dotted blue;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px 5px black;
+        transition: 0.9s all;
+    }
+    h1{
+        text-align: center;
+    }
+    #conteiner div{
+        margin-bottom: 20px;
+        border: 20px solid orangered;
+        padding: 10px;
+        text-align: justify;
+    }
+    #conteiner div{
+        box-shadow: 15px 15px 15px 10px black;
+    }
+
+}
+
